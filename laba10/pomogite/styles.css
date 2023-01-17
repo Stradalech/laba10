@@ -1,0 +1,47 @@
+*:focus {outline: none;}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+font: 14px/21px
+"Lucida Sans",
+"Lucida Grande",
+"Lucida Sans Unicode",
+sans-serif;}
+
+.form {
+         width: 300px; # Ширина 300 пикселей
+         padding: 32px; #  Внутренний отступ 32 пикселей
+         border-radius: 10px; # Закруглённую рамку или скруглить углы элемента.
+         box-shadow: 0 4px 16px #ccc; # Тень элемента. 0 - смещение Х, 4 - смещение Y, 16 - степень размытия, #ccc - цвет.
+         font-family: sans-serif; # Шрифт.
+         letter-spacing: 1px; # Расстояние между буквами
+}
+.form_group {
+         position: relative; # Положение элемента устанавливается относительно его исходного места.
+         margin-bottom: 32px;# Внешний отступ снизу элемента
+}
+.form_input {
+         width: 80%;
+         padding: 0 0 10px 0;
+         border-bottom: 1px solid #e0e0e0; # Нижняя рамка 1 пиксель, цвет  #e0e0e0
+         outline: none;
+         transition: 0.3s;
+         box-sizing: border-box;
+        margin-bottom: 20px;
+        height: 25px;
+ }
+
+ .form_button {
+         padding: 10px 20px;
+         border: none; # Без границы блока.
+         border-radius: 5px; # Радиус закругления
+         font-family: sans-serif;
+         letter-spacing: 1px;
+         font-size: 16xp;
+         outline: none; #  Внешней границы элемента
+         cursor: pointer; # Тип курсора при наведение
+         transition: 0.3s; #  transition позволяет делать плавные переходы между двумя значениями какого-либо CSS свойства
+ }
